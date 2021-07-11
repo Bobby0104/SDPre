@@ -17,10 +17,10 @@ public class Objective4Lab1 {
     favoriteFood = kb.next();
     System.out.println("What is your favorite song?");
     favoriteSong = kb.next();
-    System.out.println("My name is John Doe");
-    System.out.println("My favorite animal is the lemur");
-    System.out.println("My favorite food is tacos");
-    System.out.println("My favorite song is Twinkle Twinkle Little Star");
+    System.out.println("My name is" + fname + " " + lname);
+    System.out.println("My favorite animal is the " + favoriteAnimal);
+    System.out.println("My favorite food is " + favoriteFood);
+    System.out.println("My favorite song is " + favoriteSong);
 
   }
 }
